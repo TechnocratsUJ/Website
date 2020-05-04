@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Home Page</title>
+
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/StyleSheet.css" rel="stylesheet">
+
+    <script type="text/javascript" src="js/java.js"></script>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+
+
+        <div class="logo">
+            <a href="#"><img src="images/logo.jpg"></a>
+        </div>
+
+        <div class="navbar-collapse collapse">
+
+            <ul class="nav navbar-nav navbar-right">
+
+
+                <li class="active"><a href="C:\xampp\htdocs\Project3\bootstrap\index.html"> Home </a></li>
+
+                <li class="dropdown">
+                    < href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        Products <b class="caret"></b>
+
+                        <ul class="dropdown-menu">
+                            <li><a href="C:\xampp\htdocs\Project3\bootstrap\website.htmL"> PRODUCTS </a></li>
+                            <li class="dropdown-header"> Male </li>
+                            <li><a href="#"> Colognes </a></li>
+                            <li><a href="#"> Clothes </a></li>
+                            <li class="divider"></li>
+                            <li class="dropdown-header"> Female </li>
+                            <li><a href="#"> Perfumes </a></li>
+                            <li><a href="#"> Clothes </a></li>
+                        </ul>
+                    
+
+                </li>
+                <li><a href="#"> About</a></li>
+                <li><a href="#"> Learn </a></li>
+                <li><a href="#"> Promotions </a></li>
+
+
+
+            </ul>
+
+        </div>
+
+
+        <form action="" class="navbar-form">
+            <div class="form-group input-group">
+                <input type="text" placeholder="Search" class="form-control">
+                <div class="input-group-btn">
+                    <button type="button" class="btn btn-default">
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                </div>
+            </div>
+        </form>
+
+    </nav>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+
+
+
+                <div id="imageCarousel" class="carousel slide" data-wrap="false" data-interval="2000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#imageCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#imageCarousel" data-slide-to="1"></li>
+                        <li data-target="#imageCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="images/Sale.jpg" class="img-responsive" />
+                            <div class="carousel-caption">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/images (2).jpeg" class="img-responsive" />
+                            <div class="carousel-caption">
+                                <p> Get 50% this Easter! Stock limited!</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/photo1 (1).png" class="img-responsive" />
+                            <div class="carousel-caption">
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#imageCarousel" class="carousel-control left" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a href="#imageCarousel" class="carousel-control right" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="jumbotron text-center">
+            <div class="banner animated tada">
+                <div class="big-text">50% OFF</div>
+                <div> Female Perfumes </div>
+                <a href="#"> Go to store </a>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="jumbotron text-center">
+            <div class="banner animated tada">
+                <div class="big-text">50% OFF</div>
+                <div> Male Colonges </div>
+                <a href="#"> Go to store </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="navbar navbar-inverse navbar-bottom">
+        <div class="container">
+            <div class="footer-social-icons">
+                <ul>
+                    <li><a href=""> <i class="fab fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="http://instagram.com"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-menu-one">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="navbar-text pull-left">
+                <p> Copyright 2020 All Rights Reserved. Triple L Holdings</p>
+                <p> Terms & Conditions / Privacy Policy </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="navbar navbar-inverse navbar-fixed-bottom">
+        <div class="container">
+            <div class="nav-icon-bar">
+                <ul>
+                    <li><a href=""> <i class="fa fa-home" aria-hidden="true"></i></a></li>
+                    <li><a href="http://localhost/project3/bootstrap/cart.php"> <i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+                    <li><a href=""> <i class="fa fa-heart" aria-hidden="true"></i></a></li>
+                    <li><a href="C:\xampp\htdocs\Project3\bootstrap\login.html"> <i class="fa fa-user" aria-hidden="true"></i></a></li>
+
+
+                </ul>
+            </div>
+        </div>
+
+
+        <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js"
+                integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+       
+        <script src="js/bootstrap.min.js"></script>
+
+    </div>
+
+</body>
+</html>
