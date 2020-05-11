@@ -1,0 +1,241 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(Glitter590.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+
+
+}
+body{
+    padding-top: 80px;
+    padding-bottom : 40px;
+}
+.background img{
+    width: 100%;
+}
+
+.nav-icon-bar{
+    height: 10px;
+}
+nav{
+    height: 115px;
+}
+nav a:hover{
+    background : grey;
+    transition : 0.5 sec;
+    cursor: pointer;
+    
+}
+
+.logo img{
+    position: absolute;
+    margin-top: -12px;
+    margin-bottom: 0px;
+    height: 115px;
+    width: 320px;
+    left: -2%;
+    
+}
+.form-group{
+    width: 599px;
+    left: 23%;
+    right: 200%;
+    bottom: 40%;
+    position: absolute;
+    height: auto;
+}
+.btn{
+    background-color: gold;
+}
+.btn:hover{
+    cursor: pointer;
+    transition: all 0.7s ease;
+}
+.navbar-form .btn{
+    background-color: gold;
+}
+.navbar-form .btn:hover{
+    cursor: pointer;
+    transition: all 0.7s ease;
+}
+nav{
+    width: 100%;
+}
+ul{
+    padding: 0;
+    margin: 0 0 0 150px;
+    list-style: none;
+}
+li{
+    float: left;
+}
+nav a{
+    font-size: 20px;
+    display: block;
+    padding: 12px 15px;
+    text-decoration: none;
+    font-family: arial;
+    color: #f2f2f2;
+}
+.footer-menu-one{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+}
+.footer-menu-one ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.footer-menu-one ul li{
+    display: inline-block;
+    margin: 0px 15px;
+}
+.footer-menu-one ul li a{
+    font-family: arial;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+}
+.nav-icon-bar ul li{
+    display: inline-block;
+    padding: 12px 16px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: all 0.7s ease;
+    font-size: 30px;
+
+    
+}
+.nav-icon-bar ul li:hover a{
+    color: yellow;
+    font-size: 30px;
+
+}
+.nav-icon-bar ul li a{
+    color:whitesmoke;
+    padding: 60px;
+    width: 50px;
+    text-align: center;
+    font-size: 25px;
+    
+}
+.item p{
+    font-weight: bolder;
+    color: red;
+    font-size: 40px;
+}
+.item img{
+    padding: 15px 20px;
+    padding-top: 40px;
+}
+.dropdown-header li{
+    font-weight: bolder;
+    color: darkkhaki;
+    font-size: 20px;
+}
+
+.product{
+    border: 1px solid #eaeaec;
+    margin: -1px 19px 3px -1px;
+    padding: 10px;
+    text-align: center;
+    background-color: #efefef;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+}
+.form-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+.form-box h4{
+    font-weight: bold;
+    color: #fff;
+}
+.form-box .form-input{
+    position: relative;
+}
+.form-box .form-input input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background: white;
+    padding-left: 45px;
+}
+.form-box .form-input span{
+    position: absolute;
+    top: 8px;
+    padding-left: 20px;
+    color: #777;
+}
+.form-box .form-input::placeholder{
+    padding-left: 0px;
+}
+.form-box .form-input input:focus,
+.form-box .form-input input:valid{
+    border-bottom: 2px solid #dc3545;
+}
+.form-box input[type= "checkbox"]:not(:checked) + label:before{
+    background: transparent;
+    border: 2px solid #fff;
+    width: 15px;
+    height: 15px;
+}
+.form-box .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before{
+    background-color: #dc3545;
+    border: 0px;
+}
+.form-box button[type = "submit"]{
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    transform: 0.5s;
+}
+.form-box button[type = "submit"]:hover{
+    -webkit-box-shadow: 0px 9px 10px -2px rgba(0,0,0,0.55);
+    -moz-box-shadow: 0px 9px 10px -2px rgba(0,0,0,0.55);
+    box-shadow: 0px 9px 10px -2px rgba(0,0,0,0.55);
+}
+.forget-link, .register-link{
+    color: #fff;
+    font-weight: bold;
+}
+.forget-link:hover, .register-link:hover{
+    color: #292525;
+}
+.form-box .btn-social{
+    display: inline-block;
+    color: #fff;
+    border: 0;
+    margin-bottom: 10px;
+
+}
+.form-box .btn-social:hover{
+    color: #fff;
+
+}
+.form-box .btn-facebook .fa-facebook{
+    color: #3b5998;
+}
+.form-box .btn-google .fa-google{
+    color: #da3f34;
+}
+.form-box .btn-instagram .fa-instagram{
+    color:  #d6249f;
+}

@@ -1,0 +1,176 @@
+body {
+    
+   
+    background: black;
+}
+body{
+    padding-top: 80px;
+    padding-bottom : 40px;
+}
+.nav-icon-bar{
+    height: 10px;
+}
+nav{
+    height: 115px;
+}
+nav a:hover{
+    background : grey;
+    transition : 0.5 sec;
+    cursor: pointer;
+    
+}
+
+.logo img{
+    position: absolute;
+    margin-top: -12px;
+    margin-bottom: 0px;
+    height: 115px;
+    width: 320px;
+    left: -2%;
+    
+}
+.form-group{
+    width: 620px;
+    left: 23%;
+    right: 200%;
+    bottom: 40%;
+    position: absolute;
+    height: auto;
+}
+.btn{
+    background-color: gold;
+    left: 3%;
+    
+}
+.btn:hover{
+    cursor: pointer;
+    transition: all 0.7s ease;
+    color: blue;
+}
+nav{
+    width: 100%;
+}
+.dropdown-menu ul{
+    padding: 0;
+    margin: 0 0 0 150px;
+    list-style: none;
+}
+.dropdown-menu li{
+	color: black;;
+}
+li{
+    float: left;
+}
+nav a{
+    font-size: 20px;
+    display: block;
+    padding: 12px 15px;
+    text-decoration: none;
+    font-family: arial;
+    color: #f2f2f2;
+}
+.jumbotron{
+    background: rgba(247, 247, 9, 0.582);
+   
+}
+.banner{
+    width: 100%;
+    background-image: url("images/villa.jpg");
+    background-size: cover;
+    font-size: 20px;
+    color:black;
+    text-align: center;
+    padding: 40px 15px;
+}
+.big-text{
+    font-size: 130px;
+    font-weight: 8000;
+    color: red;
+}
+.banner a{
+    display: inline-block;
+    background-color: black;
+    color: #333;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 60px;
+    padding: 15px;
+    transition: .3s;
+}
+.banner a:hover{
+    background: #333;
+    color: #fff;
+}
+.fa-facebook{
+
+    color: #3b5998;
+}
+.fa-youtube{
+    
+    color:#c4302b;
+    
+}
+.fa-twitter{
+    color: #55ACEE;
+}
+.fa-instagram{
+    color: #d6249f;
+}
+.footer-social-icons ul li{
+    display: inline-block;
+    padding: 12px 16px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: all 0.7s ease;
+    font-size: 20px;   
+       
+}
+.footer-social-icons ul li:hover{
+    background: black;
+    font-size: 30px;
+}
+.footer-menu-one{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+}
+.footer-menu-one ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.footer-menu-one ul li{
+    display: inline-block;
+    margin: 0px 15px;
+}
+.footer-menu-one ul li a{
+    font-family: arial;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+}
+.nav-icon-bar ul li{
+    display: inline-block;
+    padding: 12px 16px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: all 0.7s ease;
+    font-size: 30px;
+
+    
+}
+.nav-icon-bar ul li:hover a{
+    color: yellow;
+    font-size: 30px;
+
+}
+.nav-icon-bar ul li a{
+    color:whitesmoke;
+    padding: 60px;
+    width: 50px;
+    text-align: center;
+    font-size: 25px;
+    
+}
